@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+ <test name="Chrome Test">
+<parameter name="Port" value="5555"/>
+    <classes>
+      <class name="Capstone.FinalProject.TestCase5"/>
+      <class name="Capstone.FinalProject.TestCase4"/>
+      <class name="Capstone.FinalProject.TestCase6"/>
+      <class name="Capstone.FinalProject.TestCase1"/>
+      <class name="Capstone.FinalProject.TestCase3"/>
+      <class name="Capstone.FinalProject.TestCase2"/>
+      <class name="Capstone.FinalProject.AppTest"/>
+    </classes>
+     </test> 
+     
+<test name="Microsoft Edge Test">
+<parameter name="Port" value="6666"/>
+<classes>
+      <class name="Capstone.FinalProject.TestCase5"/>
+      <class name="Capstone.FinalProject.TestCase4"/>
+      <class name="Capstone.FinalProject.TestCase6"/>
+      <class name="Capstone.FinalProject.TestCase1"/>
+      <class name="Capstone.FinalProject.TestCase3"/>
+      <class name="Capstone.FinalProject.TestCase2"/>
+      <class name="Capstone.FinalProject.AppTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
+
